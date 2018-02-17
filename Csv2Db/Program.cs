@@ -10,6 +10,9 @@ namespace Csv2Db
     {
         static void Main(string[] args)
         {
+            var inicio = DateTime.Now;
+            Read.Vendedor();
+            Console.WriteLine(DateTime.Now - inicio);
         }
     }
 }
